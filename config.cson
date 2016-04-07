@@ -1,0 +1,24 @@
+"*":
+  core:
+    audioBeep: false
+  editor:
+    fontFamily: "Monaco"
+    fontSize: 13
+    invisibles: {}
+    showInvisibles: true
+    tabType: "soft"
+  emmet: {}
+  "exception-reporting":
+    userId: "00ba6670-a453-69d8-b805-8d447dd849ad"
+  minimap:
+    plugins:
+      bookmarks: true
+      bookmarksDecorationsZIndex: 0
+      "highlight-selected": true
+      "highlight-selectedDecorationsZIndex": 0
+      "minimap-autohide": true
+      "minimap-autohideDecorationsZIndex": 0
+  pigments:
+    markerType: "dot"
+  welcome:
+    showOnStartup: false
