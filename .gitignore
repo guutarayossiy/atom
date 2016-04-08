@@ -6,3 +6,4 @@ storage
 .npm
 .apm
 packages
+projects.cson
