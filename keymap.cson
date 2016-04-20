@@ -12,6 +12,7 @@
 #
 # 'atom-text-editor':
 #   'enter': 'editor:newline'
+
 #
 # 'atom-workspace':
 #   'ctrl-shift-p': 'core:move-up'
@@ -30,3 +31,7 @@
 # If you are unfamiliar with CSON, you can read more about it in the
 # Atom Flight Manual:
 # https://atom.io/docs/latest/using-atom-basic-customization#cson
+
+  # Prevent tab from expanding using Emmet when autocomplete is open
+'atom-text-editor.autocomplete-active:not([mini])':
+  'tab': 'autocomplete-plus:confirm'

@@ -1,15 +1,26 @@
 "*":
+  "atom-material-ui":
+    fonts: {}
+    ui:
+      animations: false
   core:
     audioBeep: false
+    themes: [
+      "atom-material-ui"
+      "monokai"
+    ]
   editor:
-    fontFamily: "Monaco"
+    fontFamily: "\"Source Han Code JP\""
     fontSize: 13
     invisibles: {}
     showInvisibles: true
+    softWrap: true
     tabType: "soft"
   emmet: {}
   "exception-reporting":
     userId: "00ba6670-a453-69d8-b805-8d447dd849ad"
+  "highlight-line":
+    enableBackgroundColor: false
   minimap:
     plugins:
       bookmarks: true
