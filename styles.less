@@ -44,10 +44,16 @@ atom-panel-container .project-root > .header {
 atom-panel-container.left .entries.list-tree .directory.entry.list-nested-item.status-ignored, atom-panel-container.right .entries.list-tree .directory.entry.list-nested-item.status-ignored, atom-panel-container.left .entries.list-tree .file.entry.list-item.status-ignored, atom-panel-container.right .entries.list-tree .file.entry.list-item.status-ignored {
   color:#8e8e8e;
 }
-atom-panel-container.left .entries.list-tree .directory.entry.list-nested-item, atom-panel-container.right .entries.list-tree .directory.entry.list-nested-item, atom-panel-container.left .entries.list-tree .file.entry.list-item, atom-panel-container.right .entries.list-tree .file.entry.list-item {
+atom-panel-container.left .entries.list-tree .directory.entry.list-nested-item,
+atom-panel-container.right .entries.list-tree .directory.entry.list-nested-item,
+atom-panel-container.left .entries.list-tree .file.entry.list-item,
+atom-panel-container.right .entries.list-tree .file.entry.list-item {
   transition: .5s ease all;
 }
-atom-panel-container.left .entries.list-tree .directory.entry.list-nested-item:hover, atom-panel-container.right .entries.list-tree .directory.entry.list-nested-item:hover, atom-panel-container.left .entries.list-tree .file.entry.list-item:hover, atom-panel-container.right .entries.list-tree .file.entry.list-item:hover,
+atom-panel-container.left .entries.list-tree .directory.entry.list-nested-item.collapsed:hover,
+atom-panel-container.right .entries.list-tree .directory.entry.list-nested-item.collapsed:hover,
+atom-panel-container.left .entries.list-tree .file.entry.list-item:hover,
+atom-panel-container.right .entries.list-tree .file.entry.list-item:hover,
 atom-panel-container .project-root > .header:hover {
   background-color: #4d394b + #111;
 }
