@@ -1,34 +1,51 @@
 "*":
+  "atom-beautify":
+    general:
+      _analyticsUserId: "22ba7866-8b6d-4a03-bd8d-470ee6ec6f4d"
   "atom-material-ui":
     fonts: {}
     ui:
       animations: false
+  autosave: {}
   core:
     audioBeep: false
     disabledPackages: [
       "minimap-autohide"
       "minimap-bookmarks"
       "minimap-highlight-selected"
-      "minimap"
       "terminal-plus"
+      "pigments"
+      "bookmarks"
+      "atom-autocomplete-php"
     ]
+    telemetryConsent: "limited"
     themes: [
-      "atom-material-ui"
+      "seti-ui"
       "monokai"
     ]
   editor:
+    autoIndentOnPaste: false
     fontFamily: "\"Source Han Code JP\""
     fontSize: 13
     invisibles: {}
     showInvisibles: true
     softWrap: true
-    tabType: "soft"
   emmet: {}
   "exception-reporting":
     userId: "00ba6670-a453-69d8-b805-8d447dd849ad"
+  "genesis-ui":
+    distractionFree:
+      hideBottom: false
+      hideFiles: false
+      hideTabs: false
+    treeView: {}
+  "git-plus":
+    general:
+      _analyticsUserId: "64a6184f-c869-47ea-92db-3348a061dddc"
   "highlight-line":
     enableBackgroundColor: false
   minimap:
+    displayCodeHighlights: false
     plugins:
       bookmarks: true
       bookmarksDecorationsZIndex: 0
@@ -36,12 +53,35 @@
       "highlight-selectedDecorationsZIndex": 0
       "minimap-autohide": true
       "minimap-autohideDecorationsZIndex": 0
+  "one-dark-ui":
+    layoutMode: "Compact"
+    tabSizing: "Even"
   pigments:
     markerType: "dot"
+  "platformio-ide-terminal":
+    style:
+      defaultPanelHeight: "200px"
   preview:
     _analyticsUserId: "5f7e724f-ba7b-4057-ae39-379b09c71a09"
+  "project-manager":
+    sortBy: "group"
+  "seti-ui":
+    compactView: true
+    disableAnimations: true
+    fileIcons: false
+  "tree-view": {}
   welcome:
     showOnStartup: false
+  whitespace:
+    ensureSingleTrailingNewline: false
+".css.scss.source":
+  editor:
+    autoIndentOnPaste: true
 ".ini.source":
   editor:
+    autoIndentOnPaste: false
     showIndentGuide: true
+    softWrap: true
+".sass.source":
+  editor:
+    autoIndentOnPaste: true

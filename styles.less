@@ -16,11 +16,12 @@
  */
 
 // style the background color of the tree view
-.tree-view {
-  font-family: "Source Han Code JP";
-}
+// .tree-view {
+//   // font-family: "Source Han Code JP";
+//   // font-size: 11px;
+// }
 atom-workspace {
-  font-family: "Source Han Code JP";
+  // font-family: "Source Han Code JP";
 }
 
 // style the background and foreground colors on the atom-text-editor-element itself
@@ -32,4 +33,21 @@ atom-text-editor {
 // To style other content in the text editor's shadow DOM, use the ::shadow expression
 atom-text-editor::shadow .cursor {
   // border-color: red;
+}
+
+
+// seti-uiのサイドバーをslackのサイドバー風にするカスタマイズ
+.tree-view,
+atom-panel-container .project-root > .header {
+  background-color: #4d394b;
+}
+atom-panel-container.left .entries.list-tree .directory.entry.list-nested-item.status-ignored, atom-panel-container.right .entries.list-tree .directory.entry.list-nested-item.status-ignored, atom-panel-container.left .entries.list-tree .file.entry.list-item.status-ignored, atom-panel-container.right .entries.list-tree .file.entry.list-item.status-ignored {
+  color:#8e8e8e;
+}
+atom-panel-container.left .entries.list-tree .directory.entry.list-nested-item, atom-panel-container.right .entries.list-tree .directory.entry.list-nested-item, atom-panel-container.left .entries.list-tree .file.entry.list-item, atom-panel-container.right .entries.list-tree .file.entry.list-item {
+  transition: .5s ease all;
+}
+atom-panel-container.left .entries.list-tree .directory.entry.list-nested-item:hover, atom-panel-container.right .entries.list-tree .directory.entry.list-nested-item:hover, atom-panel-container.left .entries.list-tree .file.entry.list-item:hover, atom-panel-container.right .entries.list-tree .file.entry.list-item:hover,
+atom-panel-container .project-root > .header:hover {
+  background-color: #4d394b + #111;
 }
