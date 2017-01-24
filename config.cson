@@ -17,6 +17,7 @@
       "pigments"
       "bookmarks"
       "atom-autocomplete-php"
+      "file-icons"
     ]
     telemetryConsent: "limited"
     themes: [
@@ -68,7 +69,8 @@
   "seti-ui":
     compactView: true
     disableAnimations: true
-    fileIcons: false
+  "status-bar":
+    fullWidth: false
   "tree-view": {}
   welcome:
     showOnStartup: false
