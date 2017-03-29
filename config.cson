@@ -13,7 +13,6 @@
       "minimap-autohide"
       "minimap-bookmarks"
       "minimap-highlight-selected"
-      "terminal-plus"
       "pigments"
       "bookmarks"
       "atom-autocomplete-php"
@@ -65,6 +64,7 @@
   preview:
     _analyticsUserId: "5f7e724f-ba7b-4057-ae39-379b09c71a09"
   "project-manager":
+    savePathsRelativeToHome: true
     sortBy: "group"
   "seti-ui":
     compactView: true
