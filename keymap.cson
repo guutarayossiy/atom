@@ -33,8 +33,8 @@
 # https://atom.io/docs/latest/using-atom-basic-customization#cson
 
   # Prevent tab from expanding using Emmet when autocomplete is open
-'atom-text-editor.autocomplete-active:not([mini])':
-  'tab': 'autocomplete-plus:confirm'
+#'atom-text-editor.autocomplete-active:not([mini])':
+#  'tab': 'autocomplete-plus:confirm'
 
 'body':
   'ctrl-tab ^ctrl': 'unset!'

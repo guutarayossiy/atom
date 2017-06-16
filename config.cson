@@ -10,13 +10,13 @@
   core:
     audioBeep: false
     disabledPackages: [
-      "minimap-autohide"
-      "minimap-bookmarks"
-      "minimap-highlight-selected"
-      "pigments"
       "bookmarks"
       "atom-autocomplete-php"
-      "file-icons"
+      "minimap"
+    ]
+    packagesWithKeymapsDisabled: [
+      "highlight-line"
+      "highlight-selected"
     ]
     telemetryConsent: "limited"
     themes: [
@@ -30,7 +30,8 @@
     invisibles: {}
     showInvisibles: true
     softWrap: true
-  emmet: {}
+  emmet:
+    extensionsPath: "~/.atom/emmet-extentions"
   "exception-reporting":
     userId: "00ba6670-a453-69d8-b805-8d447dd849ad"
   "genesis-ui":
@@ -43,7 +44,9 @@
     general:
       _analyticsUserId: "64a6184f-c869-47ea-92db-3348a061dddc"
   "highlight-line":
-    enableBackgroundColor: false
+    hideHighlightOnSelect: true
+  "linter-php": {}
+  "linter-ui-default": {}
   minimap:
     displayCodeHighlights: false
     plugins:
@@ -54,7 +57,6 @@
       "minimap-autohide": true
       "minimap-autohideDecorationsZIndex": 0
   "one-dark-ui":
-    layoutMode: "Compact"
     tabSizing: "Even"
   pigments:
     markerType: "dot"
@@ -65,13 +67,17 @@
     _analyticsUserId: "5f7e724f-ba7b-4057-ae39-379b09c71a09"
   "project-manager":
     savePathsRelativeToHome: true
-    sortBy: "group"
+    sortBy: "last modified"
   "seti-ui":
     compactView: true
     disableAnimations: true
   "status-bar":
     fullWidth: false
+  "terminal-plus":
+    toggles:
+      autoClose: true
   "tree-view": {}
+  "tree-view-git-branch": {}
   welcome:
     showOnStartup: false
   whitespace:
