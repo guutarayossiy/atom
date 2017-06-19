@@ -1,5 +1,15 @@
 {
     "html": {
         "filters": "html,c"
+    },
+    "variables": {
+        "lang": "ja",
+        "locale": "ja-JP",
+        "charset": "utf-8",
+        "indentation": "\t",
+        "newline": "\n"
+    },
+    "php": {
+        "extends": "html"
     }
 }
