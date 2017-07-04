@@ -3,9 +3,14 @@
     general:
       _analyticsUserId: "22ba7866-8b6d-4a03-bd8d-470ee6ec6f4d"
   "atom-material-ui":
+    colors: {}
     fonts: {}
+    tabs:
+      compactTabs: true
     ui:
       animations: false
+      panelContrast: true
+      panelShadows: true
   autosave: {}
   core:
     audioBeep: false
@@ -20,7 +25,7 @@
     ]
     telemetryConsent: "limited"
     themes: [
-      "seti-ui"
+      "atom-material-ui"
       "monokai"
     ]
   editor:
@@ -46,7 +51,8 @@
   "highlight-line":
     hideHighlightOnSelect: true
   "linter-php": {}
-  "linter-ui-default": {}
+  "linter-ui-default":
+    panelHeight: 56
   minimap:
     displayCodeHighlights: false
     plugins:

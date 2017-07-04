@@ -23,48 +23,50 @@ style the background color of the tree view
 atom-workspace {
   font-family: "Source Han Code JP";
 }
-
+//
 // style the background and foreground colors on the atom-text-editor-element itself
-atom-text-editor {
-  // color: white;
-  // background-color: hsl(180, 24%, 12%);
-}
-
-// To style other content in the text editor's shadow DOM, use the ::shadow expression
-atom-text-editor::shadow .cursor {
-  // border-color: red;
-}
-
-
-// seti-uiのサイドバーをslackのサイドバー風にするカスタマイズ
-.tree-view,
-atom-panel-container .project-root > .header,
-atom-panel-container.left .tool-panel, atom-panel-container.right .tool-panel,
-atom-panel-container .list-inline.tab-bar.inset-panel {
-  background-color: #4d394b;
-}
-atom-panel-container.left .entries.list-tree .directory.entry.list-nested-item.status-ignored, atom-panel-container.right .entries.list-tree .directory.entry.list-nested-item.status-ignored, atom-panel-container.left .entries.list-tree .file.entry.list-item.status-ignored, atom-panel-container.right .entries.list-tree .file.entry.list-item.status-ignored {
-  color:#8e8e8e;
-}
-atom-panel-container.left .entries.list-tree .directory.entry.list-nested-item,
-atom-panel-container.right .entries.list-tree .directory.entry.list-nested-item,
-atom-panel-container.left .entries.list-tree .file.entry.list-item,
-atom-panel-container.right .entries.list-tree .file.entry.list-item {
-  transition: .5s ease all;
-}
-atom-panel-container.left .entries.list-tree .directory.entry.list-nested-item.collapsed:hover,
-atom-panel-container.right .entries.list-tree .directory.entry.list-nested-item.collapsed:hover,
-atom-panel-container.left .entries.list-tree .file.entry.list-item:hover,
-atom-panel-container.right .entries.list-tree .file.entry.list-item:hover,
-atom-panel-container .project-root > .header:hover {
-  background-color: #4d394b + #111;
-}
-
-.github-StagingView-group.is-focused .is-selected {
-  color: #fff;
-  background: lighten( #060708, 10% );
-}
-.github-StagingView:focus .github-StagingView-group.is-focused .is-selected{
-  color: #fff;
-  background: lighten( #060708, 20% );
-}
+// atom-text-editor {
+//   color: white;
+//   background-color: hsl(180, 24%, 12%);
+// }
+//
+// // To style other content in the text editor's shadow DOM, use the ::shadow expression
+// atom-text-editor::shadow .cursor {
+//   // border-color: red;
+// }
+//
+// .tree-view .list-tree {
+//   font-size: .9em;
+// }
+// // seti-uiのサイドバーをslackのサイドバー風にするカスタマイズ
+// .tree-view,
+// atom-panel-container .project-root > .header,
+// atom-panel-container.left .tool-panel, atom-panel-container.right .tool-panel,
+// atom-panel-container .list-inline.tab-bar.inset-panel {
+//   background-color: #4d394b;
+// }
+// atom-panel-container.left .entries.list-tree .directory.entry.list-nested-item.status-ignored, atom-panel-container.right .entries.list-tree .directory.entry.list-nested-item.status-ignored, atom-panel-container.left .entries.list-tree .file.entry.list-item.status-ignored, atom-panel-container.right .entries.list-tree .file.entry.list-item.status-ignored {
+//   color:#8e8e8e;
+// }
+// atom-panel-container.left .entries.list-tree .directory.entry.list-nested-item,
+// atom-panel-container.right .entries.list-tree .directory.entry.list-nested-item,
+// atom-panel-container.left .entries.list-tree .file.entry.list-item,
+// atom-panel-container.right .entries.list-tree .file.entry.list-item {
+//   transition: .5s ease all;
+// }
+// atom-panel-container.left .entries.list-tree .directory.entry.list-nested-item.collapsed:hover,
+// atom-panel-container.right .entries.list-tree .directory.entry.list-nested-item.collapsed:hover,
+// atom-panel-container.left .entries.list-tree .file.entry.list-item:hover,
+// atom-panel-container.right .entries.list-tree .file.entry.list-item:hover,
+// atom-panel-container .project-root > .header:hover {
+//   background-color: #4d394b + #111;
+// }
+//
+// .github-StagingView-group.is-focused .is-selected {
+//   color: #fff;
+//   background: lighten( #060708, 10% );
+// }
+// .github-StagingView:focus .github-StagingView-group.is-focused .is-selected{
+//   color: #fff;
+//   background: lighten( #060708, 20% );
+// }
