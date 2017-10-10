@@ -11,13 +11,15 @@
       animations: false
       panelContrast: true
       panelShadows: true
+  "autocomplete-paths":
+    enableHtmlSupport: true
+    ignoredNames: false
   autosave: {}
   core:
     audioBeep: false
     disabledPackages: [
       "bookmarks"
       "atom-autocomplete-php"
-      "minimap"
     ]
     packagesWithKeymapsDisabled: [
       "highlight-line"
@@ -31,7 +33,7 @@
   editor:
     autoIndentOnPaste: false
     fontFamily: "\"Source Han Code JP\""
-    fontSize: 13
+    fontSize: 12
     invisibles: {}
     showInvisibles: true
     softWrap: true
@@ -52,7 +54,7 @@
     hideHighlightOnSelect: true
   "linter-php": {}
   "linter-ui-default":
-    panelHeight: 56
+    panelHeight: 96
   minimap:
     displayCodeHighlights: false
     plugins:
