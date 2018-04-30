@@ -12,6 +12,9 @@
       ".sass-cache"
     ]
   core:
+    disabledPackages: [
+      "atom-ide-ui"
+    ]
     themes: [
       "atom-material-ui"
       "monokai"
@@ -29,8 +32,7 @@
     hideHighlightOnSelect: true
   "linter-phpcs":
     disableWhenNoConfigFile: true
-  "linter-ui-default":
-    panelHeight: 300
+  "linter-ui-default": {}
   "platformio-ide-terminal":
     style:
       defaultPanelHeight: "100px"
@@ -39,3 +41,5 @@
   "project-manager":
     savePathsRelativeToHome: true
     sortBy: "last modified"
+  welcome:
+    showOnStartup: false
