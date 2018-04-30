@@ -1,103 +1,41 @@
 "*":
-  "atom-beautify":
-    general:
-      _analyticsUserId: "22ba7866-8b6d-4a03-bd8d-470ee6ec6f4d"
-  "atom-material-ui":
-    colors: {}
-    fonts: {}
-    tabs:
-      compactTabs: true
-    ui:
-      animations: false
-      panelContrast: true
-      panelShadows: true
+  "atom-ide-ui":
+    use: {}
   "autocomplete-paths":
     enableHtmlSupport: true
+    ignoreBuiltinScopes: true
+    ignoreSubmodules: true
     ignoredNames: false
-  autosave: {}
+    ignoredPatterns: [
+      ".git"
+      "node_modules"
+      ".sass-cache"
+    ]
   core:
-    audioBeep: false
-    disabledPackages: [
-      "bookmarks"
-      "atom-autocomplete-php"
-    ]
-    packagesWithKeymapsDisabled: [
-      "highlight-line"
-      "highlight-selected"
-    ]
-    telemetryConsent: "limited"
     themes: [
       "atom-material-ui"
       "monokai"
     ]
   editor:
-    autoIndentOnPaste: false
     fontFamily: "\"Source Han Code JP\""
-    fontSize: 12
-    invisibles: {}
+    showIndentGuide: true
     showInvisibles: true
     softWrap: true
   emmet:
     extensionsPath: "~/.atom/emmet-extentions"
   "exception-reporting":
-    userId: "00ba6670-a453-69d8-b805-8d447dd849ad"
-  "genesis-ui":
-    distractionFree:
-      hideBottom: false
-      hideFiles: false
-      hideTabs: false
-    treeView: {}
-  "git-plus":
-    general:
-      _analyticsUserId: "64a6184f-c869-47ea-92db-3348a061dddc"
+    userId: "b1ee65c5-6bfd-4af2-8099-eb52f2a2ba10"
   "highlight-line":
     hideHighlightOnSelect: true
-  "linter-php": {}
+  "linter-phpcs":
+    disableWhenNoConfigFile: true
   "linter-ui-default":
-    panelHeight: 96
-  minimap:
-    displayCodeHighlights: false
-    plugins:
-      bookmarks: true
-      bookmarksDecorationsZIndex: 0
-      "highlight-selected": true
-      "highlight-selectedDecorationsZIndex": 0
-      "minimap-autohide": true
-      "minimap-autohideDecorationsZIndex": 0
-  "one-dark-ui":
-    tabSizing: "Even"
-  pigments:
-    markerType: "dot"
+    panelHeight: 300
   "platformio-ide-terminal":
     style:
-      defaultPanelHeight: "200px"
-  preview:
-    _analyticsUserId: "5f7e724f-ba7b-4057-ae39-379b09c71a09"
+      defaultPanelHeight: "100px"
+    toggles:
+      autoClose: true
   "project-manager":
     savePathsRelativeToHome: true
     sortBy: "last modified"
-  "seti-ui":
-    compactView: true
-    disableAnimations: true
-  "status-bar":
-    fullWidth: false
-  "terminal-plus":
-    toggles:
-      autoClose: true
-  "tree-view": {}
-  "tree-view-git-branch": {}
-  welcome:
-    showOnStartup: false
-  whitespace:
-    ensureSingleTrailingNewline: false
-".css.scss.source":
-  editor:
-    autoIndentOnPaste: true
-".ini.source":
-  editor:
-    autoIndentOnPaste: false
-    showIndentGuide: true
-    softWrap: true
-".sass.source":
-  editor:
-    autoIndentOnPaste: true

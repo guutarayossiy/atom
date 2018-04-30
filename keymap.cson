@@ -41,3 +41,6 @@
   'ctrl-tab': 'pane:show-next-item'
   'ctrl-shift-tab ^ctrl': 'unset!'
   'ctrl-shift-tab': 'pane:show-previous-item'
+
+'.platform-darwin atom-text-editor':
+  'shift-cmd-H': 'git-plus:menu'
