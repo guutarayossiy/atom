@@ -15,6 +15,7 @@
     disabledPackages: [
       "atom-ide-ui"
     ]
+    telemetryConsent: "no"
     themes: [
       "atom-material-ui"
       "monokai"
