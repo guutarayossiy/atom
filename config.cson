@@ -9,19 +9,22 @@
     ignoredPatterns: [
       ".git"
       "node_modules"
-      ".sass-cache"
     ]
+    normalizeSlashes: false
+    suggestionPriority: 1
   core:
     disabledPackages: [
       "atom-ide-ui"
+      "file-icons"
     ]
     telemetryConsent: "no"
     themes: [
-      "atom-material-ui"
+      "seti-ui"
       "monokai"
     ]
   editor:
     fontFamily: "\"Source Han Code JP\""
+    fontSize: 15
     showIndentGuide: true
     showInvisibles: true
     softWrap: true
@@ -33,7 +36,8 @@
     hideHighlightOnSelect: true
   "linter-phpcs":
     disableWhenNoConfigFile: true
-  "linter-ui-default": {}
+  "linter-ui-default":
+    panelHeight: 92
   "platformio-ide-terminal":
     style:
       defaultPanelHeight: "100px"
@@ -42,5 +46,10 @@
   "project-manager":
     savePathsRelativeToHome: true
     sortBy: "last modified"
+  "seti-ui":
+    compactView: true
+    disableAnimations: true
+    hideDocumentTitle: true
+    hideProjectTab: true
   welcome:
     showOnStartup: false
