@@ -1,6 +1,17 @@
 "*":
   "atom-ide-ui":
-    use: {}
+    "atom-ide-diagnostics-ui":
+      autoVisibility: true
+    use:
+      "atom-ide-diagnostics-ui": "never"
+  "atom-material-ui":
+    fonts:
+      fontSize: 15
+    tabs:
+      compactTabs: true
+    ui:
+      panelContrast: true
+      panelShadows: true
   "autocomplete-paths":
     enableHtmlSupport: true
     ignoreBuiltinScopes: true
@@ -13,13 +24,9 @@
     normalizeSlashes: false
     suggestionPriority: 1
   core:
-    disabledPackages: [
-      "atom-ide-ui"
-      "file-icons"
-    ]
     telemetryConsent: "no"
     themes: [
-      "seti-ui"
+      "atom-material-ui"
       "monokai"
     ]
   editor:
@@ -36,8 +43,10 @@
     hideHighlightOnSelect: true
   "linter-phpcs":
     disableWhenNoConfigFile: true
+    showSource: false
+    tabWidth: 4
   "linter-ui-default":
-    panelHeight: 92
+    panelHeight: 289
   "platformio-ide-terminal":
     style:
       defaultPanelHeight: "100px"
